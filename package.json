@@ -1,6 +1,6 @@
 {
-  "name": "universal-utils",
-  "version": "1.1.2",
+  "name": "universal-utils-v2",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
