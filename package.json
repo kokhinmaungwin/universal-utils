@@ -23,9 +23,9 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
-    "rollup": "^3.0.0",
-    "@rollup/plugin-node-resolve": "^15.0.0",
     "@rollup/plugin-commonjs": "^24.0.0",
-    "@rollup/plugin-terser": "^0.3.0"
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.3.0",
+    "rollup": "^3.0.0"
   }
 }
