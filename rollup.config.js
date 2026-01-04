@@ -1,12 +1,12 @@
-import resolve from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs';
-import { terser } from '@rollup/plugin-terser';
+const resolve = require('@rollup/plugin-node-resolve').default;
+const commonjs = require('@rollup/plugin-commonjs');
+const { terser } = require('@rollup/plugin-terser');
 
-export default {
+module.exports = {
   input: 'index.js',
   output: {
     file: 'dist/bundle.min.js',
-    format: 'cjs',
+    format: 'cjs',  // CommonJS format
     sourcemap: true,
   },
   plugins: [
