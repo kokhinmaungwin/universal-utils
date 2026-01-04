@@ -1,5 +1,5 @@
 {
-  "name": "universal-utils-v2",
+  "name": "@kokhinmaungwin/universal-utils-v2",
   "version": "1.0.3",
   "description": "",
   "main": "index.js",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/kokhinmaungwin/universal-utils/issues"
   },
-  "homepage": "https://github.com/kokhinmaungwin/universal-utils#readme"
+  "homepage": "https://github.com/kokhinmaungwin/universal-utils#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
