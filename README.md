@@ -58,6 +58,34 @@ puts capitalize("hello")
 
 ---
 
+## 💾 Installation
+
+### JavaScript / TypeScript (via npm)
+
+```bash
+npm install @kokhinmaungwin/universal-utils-v2
+```
+
+### Python (via pip)
+
+```bash
+pip install universal-utils
+```
+
+### PHP (via Composer)
+
+```bash
+composer require kokhinmaungwin/universal-utils
+```
+
+### Ruby (via Gem)
+
+```bash
+gem install universal-utils
+```
+
+---
+
 ## 🛠 Future Plans
 
 - More string helpers
@@ -66,6 +94,22 @@ puts capitalize("hello")
 - Validation helpers
 - Unit tests
 - Package publishing to npm / PyPI / Composer / RubyGems
+
+---
+
+## 📅 Changelog
+
+### v1.0.3 (2026-01-05)
+- Fixed Rollup build config
+- Added minified bundle
+- Updated README and usage examples
+
+---
+
+## 📞 Contact / Support
+
+If you encounter any issues or have questions, please open an issue on GitHub:
+[https://github.com/kokhinmaungwin/universal-utils/issues](https://github.com/kokhinmaungwin/universal-utils/issues)
 
 ---
 
