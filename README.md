@@ -86,6 +86,34 @@ gem install universal-utils
 
 ---
 
+## 🚀 Usage Examples (with package imports)
+
+### JavaScript / TypeScript
+```js
+import { capitalize, formatDate } from "@kokhinmaungwin/universal-utils-v2";
+
+console.log(capitalize("hello")); // Hello
+console.log(formatDate(new Date())); // 2026-01-03
+```
+### Python
+```Py
+from universal_utils import capitalize, format_date
+print(capitalize("hello"))
+print(format_date(datetime.now()))
+```
+### PHP
+```Php
+require 'vendor/autoload.php'; // Assuming installed via composer
+echo capitalize("hello");
+```
+### Ruby
+```Rb
+require "universal-utils"
+puts capitalize("hello")
+```
+
+---
+
 ## 🛠 Future Plans
 
 - More string helpers
