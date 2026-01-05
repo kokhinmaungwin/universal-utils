@@ -2,10 +2,12 @@
   "name": "@kokhinmaungwin/universal-utils-v2",
   "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bundle.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "minify": "terser dist/bundle.js -o dist/bundle.min.js",
+    "build:prod": "rollup -c && terser dist/bundle.js -o dist/bundle.min.js"
   },
   "repository": {
     "type": "git",
@@ -22,10 +24,14 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
     "@rollup/plugin-terser": "^0.4.4",
-    "rollup": "^3.0.0"
+    "rollup": "^3.0.0",
+    "terser": "^5.36.0"
   }
 }
